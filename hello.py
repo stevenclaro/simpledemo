@@ -5,8 +5,13 @@ def say_hello():
 # 新增：加法函数
 def add(a, b):
     return a + b
+ # 新增：乘法函数
+def multiply(a, b):
+    return a * b
     
 if __name__ == "__main__":
     say_hello()
     # 调用加法函数演示
     print("10 + 20 =", add(10, 20))
+    # 调用乘法函数演示
+    print("10 * 20 =", multiply(10, 20))
